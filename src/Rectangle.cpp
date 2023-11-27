@@ -2,14 +2,14 @@
 
 Rectangle::Rectangle() : Point()
 {
-	m_width = 0;
-	m_height = 0;
+	width = 0;
+	height = 0;
 }
 
 Rectangle::Rectangle(int width, int height, int x, int y) : Point(x, y)
 {
-	m_width = width;
-	m_height = height;
+	this->width = width;
+	this->height = height;
 }
 
 Rectangle::~Rectangle()
@@ -18,5 +18,5 @@ Rectangle::~Rectangle()
 
 int Rectangle::getArea()
 {
-	return m_width * m_height;
+	return width * height;
 }

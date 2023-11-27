@@ -2,14 +2,14 @@
 
 Point::Point()
 {
-	m_x = 0;
-	m_y = 0;
+	x = 0;
+	y = 0;
 }
 
 Point::Point(int x, int y)
 {
-	m_x = x;
-	m_y = y;
+	this->x = x;
+	this->y = y;
 }
 
 Point::~Point()

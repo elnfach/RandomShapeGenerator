@@ -3,7 +3,7 @@
 
 #include "Circle.h"
 
-class Cone : private Circle
+class Cone : public Circle
 {
 	int m_height;
 public:

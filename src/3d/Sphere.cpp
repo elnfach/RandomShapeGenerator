@@ -1,4 +1,5 @@
 #include "3d/Sphere.h"
+#include <cmath>
 
 Sphere::Sphere() : Circle()
 {
@@ -14,5 +15,5 @@ Sphere::~Sphere()
 
 int Sphere::getVolume()
 {
-    return (4.0/3) * 3.14 * m_radius * m_radius * m_radius;
+    return (4.0/3) * 3.14 * pow(radius, 3);
 }

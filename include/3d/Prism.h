@@ -3,7 +3,7 @@
 
 #include "Rectangle.h"
 
-class Prism : Rectangle
+class Prism : public Rectangle
 {
 public:
 	Prism();

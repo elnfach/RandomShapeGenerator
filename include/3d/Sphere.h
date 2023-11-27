@@ -3,10 +3,9 @@
 
 #include "Circle.h"
 
-class Sphere : private Circle
+class Sphere : public Circle
 {
 	int m_diameter;
-
 public:
 	Sphere();
 	Sphere(int x, int y, int radius);

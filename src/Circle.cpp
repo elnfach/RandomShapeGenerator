@@ -1,13 +1,13 @@
 #include "Circle.h"
-
+#include <cmath>
 Circle::Circle() : Point()
 {
-	m_radius = 1;
+	radius = 1;
 }
 
 Circle::Circle(int x, int y, int radius) : Point(x, y)
 {
-	m_radius = radius;
+	this->radius = radius;
 }
 
 Circle::~Circle()
@@ -16,5 +16,5 @@ Circle::~Circle()
 
 int Circle::getArea()
 {
-	return 3.14 * m_radius * m_radius;
+	return 3.14 * pow(radius, 2);
 }

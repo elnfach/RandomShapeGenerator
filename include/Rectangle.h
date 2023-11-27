@@ -3,7 +3,7 @@
 
 #include "Point.h"
 
-class Rectangle : private Point
+class Rectangle : public Point
 {
 protected:
 	int m_width;
@@ -12,8 +12,6 @@ public:
 	Rectangle();
 	Rectangle(int x, int y, int width, int height);
 	~Rectangle();
-
-	virtual int getVolume() = 0;
 
 	int getArea() override;
 };
