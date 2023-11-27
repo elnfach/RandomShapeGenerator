@@ -16,5 +16,5 @@ Cone::~Cone()
 
 int Cone::getVolume()
 {
-	return 1.0 / 3 * 3.14 * m_radius * m_radius * m_height; // radius = 2; height = 6; => 25
+	return 1.0 / 3 * 3.14 * radius * radius * m_height; // radius = 2; height = 6; => 25
 }

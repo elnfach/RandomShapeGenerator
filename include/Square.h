@@ -11,5 +11,5 @@ public:
 	Square(int x, int y, int a);
 	~Square();
 
-	getArea() override;
+	int getArea() override;
 };

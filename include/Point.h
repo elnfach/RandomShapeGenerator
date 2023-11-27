@@ -6,8 +6,8 @@
 class Point : public Object
 {
 protected:
-	int m_x;
-	int m_y;
+	int x;
+	int y;
 	
 public:
 	Point();

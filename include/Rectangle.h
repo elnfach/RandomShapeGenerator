@@ -6,8 +6,8 @@
 class Rectangle : public Point
 {
 protected:
-	int m_width;
-	int m_height;
+	int width;
+	int height;
 public:
 	Rectangle();
 	Rectangle(int x, int y, int width, int height);

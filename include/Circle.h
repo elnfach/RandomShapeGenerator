@@ -6,7 +6,7 @@
 class Circle : public Point
 {
 protected:
-	int m_radius;
+	int radius;
 public:
 	Circle();
 	Circle(int x, int y,int radius);
